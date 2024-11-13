@@ -1,0 +1,186 @@
+.coursesPagecourses {
+    width: 100%;
+    padding: 20px;
+}
+
+.coursesPagecourses .coursesPagetitle {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.coursesPagecourses .coursesPagemainCourses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.coursesPagecourses .coursesPagecoursesDevide {
+    width: 100%;
+    /* Adjust as necessary for your layout */
+}
+
+.coursesPagecourses .coursesPagesubTitle {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    left: 0; /* Aligns the subtitle to the left */
+    padding: 10px 0;
+    z-index: 10;
+    text-align: left; /* Ensures the text is aligned to the left */
+    /* Optionally, add background color */
+    width: 100%; /* Ensures the subtitle takes up the full width */
+}
+
+
+.coursesPagecourses .coursesPagecoursesList {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    padding: 10px;
+    white-space: nowrap;
+    /* Prevent wrapping of course items */
+}
+
+.coursesPagecourses .coursesPagecourse {
+    display: flex;
+    margin-right: 35px;
+    /* Space between course items */
+    flex: 0 0 auto;
+    /* Ensure courses don't shrink or grow */
+    height: 200px;
+    /* Adjust height as needed */
+    width: auto;
+    /* Adjust width as needed */
+    background-color: #f8f8f8;
+    /* Example background */
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+/* prevent scroll indicator */
+.coursesPagecourses::-webkit-scrollbar {
+    display: none;
+}
+
+.coursesPagecourses .coursesPagecourseImage {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.coursesPagecourses .coursesPageright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: #000; */
+}
+
+.coursesPagecourses .coursesPagecourseName {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+    /* Ensures the course name takes up its own line */
+}
+
+.coursesPagecourses .coursesPagecourseDescription {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+    /* Ensures the description starts on a new line */
+    white-space: normal;
+    /* Ensures text wraps to a new line */
+    overflow-wrap: break-word;
+    /* Breaks long words to prevent overflow */
+    word-wrap: break-word;
+    /* Ensures wrapping in all browsers */
+}
+
+.coursesPagecourses .coursesPagecourseButton {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+.coursesPagecourse .coursesPagecourseImage {
+    width: 48%;
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+
+.coursesPagecourse .coursesPageright {
+    width: 48%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f00; */
+}
+
+.coursesPagecourse .coursesPageright .coursesPagecourseName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #252F40;
+    font-family: sans-serif;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.coursesPagecourse .coursesPageright .coursesPagecourseDescription {
+    font-size: 16;
+    font-weight: 400;
+    color: #252F40;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.coursesPagecourse .coursesPageright .coursesPagecourseButton {
+    background-color: #475569;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+/* Hide scrollbar for Webkit-based browsers (e.g., Chrome, Safari) */
+.coursesPagecoursesList::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.coursesPagecoursesList {
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Internet Explorer, Edge, and other browsers */
+.coursesPagecoursesList {
+    -ms-overflow-style: none;  /* IE and Edge */
+    overflow: -moz-scrollbars-none; /* Older versions of Firefox */
+}
+
+@media only screen and (max-width: 640px) {
+    .coursesPagecourses .coursesPagetitle {
+        font-size: 28px;
+    }
+    .coursesPagecourses .coursesPagecourse {
+        width: 280px;
+        height: auto;
+    }
+    .coursesPagecourse .coursesPageright{
+        /* background: #000; */
+        padding-left: 5px;
+    }
+
+
+}

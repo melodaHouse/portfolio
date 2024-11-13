@@ -1,0 +1,1451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F1F5F8;
+}
+
+/* .banner {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Shape.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 0 20px;
+    padding-bottom: 60px;
+}
+
+.nav .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+}
+.nav #nav_logo {
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.nav .menu {
+    width: 50%;
+    height: auto;
+    background-color: #0f0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px
+}
+
+.nav .menu li {
+    padding: 0 10px;
+    justify-self: unset;
+    background-color: #f00;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav .menu li a:hover {
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+}
+
+#loginButton {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#loginButton:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+#bookFreeButton {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#bookFreeButton:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.banner .textContent {
+    display: block;
+    width: 55%;
+    height: auto;
+    padding: 0 20px;
+    margin-top: 100px;
+}
+
+.banner .textContent .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 64px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.banner .textContent .subTitle {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #CBD5E1;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#bookFreeTrialButton {   
+    background-color: transparent;
+    display: block;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 40px;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 50px;
+} */
+
+/* ========================who we are ========================*/
+.whoWeAre {
+    height: 750px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.whoWeAre .textContent {
+    /* display: flex; */
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    padding: 0 20px;
+    z-index: 3;
+    /* background-color: #f00; */
+}
+
+.whoWeAre .textContent .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whoWeAre .textContent .subTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 28;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* =====================why meloda=================== */
+.whyMeloda {
+    height: 739px;
+    width: 100%;
+    background-color: #000;
+    background-image: url(../images/whymeloda.jpeg);
+    background-size: 70%;
+    background-position: left 0%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.whyMeloda .textContent {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 0 20px;
+    z-index: 3;
+    /* background-color: #f00; */
+}
+
+.whyMeloda .textContent .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whyMeloda .textContent .subTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 28;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ===========counter========================= */
+.counter {
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.counter .mainCounter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #475569;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.counter .mainCounter .count {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #f00; */
+}
+
+.counter .mainCounter .count .countImage {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.counter .mainCounter .count .countNumber {
+    font-size: 3rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.counter .mainCounter .count .countText {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 28;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* =========Courses====================== */
+.courses {
+    height: auto;
+    width: 100%;
+    background-color: #F1F5F9;
+    padding-top: 50px;
+
+}
+
+.courses .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.courses .mainCourses {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 50px 0;
+}
+
+.courses .subTitle {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.course {
+    max-width: 503px;
+    height: 222px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.course .courseImage {
+    width: 48%;
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+
+.course .right {
+    width: 48%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f00; */
+}
+
+.course .right .courseName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #252F40;
+    font-family: sans-serif;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.course .right .courseDescription {
+    font-size: 16;
+    font-weight: 400;
+    color: #252F40;
+    font-family: sans-serif;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.course .right .courseButton {
+    background-color: #475569;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+/* ===========How it works========= */
+.howItWorks {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.howItWorks .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.howItWorks .steps {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.howItWorks .step {
+    width: 25%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.howItWorks .steps img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.howItWorks .steps .stepTitle {
+    font-weight: 00;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #F1F5F9;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#step1 {
+    background-color: #9CA3AF;
+}
+
+#step2 {
+    background-color: #6B7280;
+}
+
+#step3 {
+    background-color: #475569;
+}
+
+/* ==============rising stars============== */
+.risingStars {
+    height: auto;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.risingStars .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.risingStars .mainRisingStars {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.risingStars .risingStar {
+    width: 28%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a0281a;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.risingStars .risingStar .starName {
+    font-weight: 00;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.risingStars .risingStar .location {
+    font-weight: 00;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* =====================about our teachers=========== */
+
+.aboutOurTeachers {
+    height: auto;
+    width: 100%;
+    background-color: #F1F5F9;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutOurTeachers .title {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.aboutOurTeachers .mainAboutOurTeachers {
+    width: 600px;
+    height: auto;
+    /* background-color: #000; */
+}
+
+.teacher {
+    width: 556px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.20);
+    margin: 20px;
+}
+
+.teacher .teacherSubject {
+    font-weight: 00;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #252F40;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teacher .teacherSpeechText {
+    font-weight: 00;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #252F40;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teacher .teacherdetails {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* background: #000; */
+}
+
+.teacher .teacherdetails .left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.teacher .teacherdetails .left img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.teacher .teacherdetails .right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #f00; */
+}
+
+.teacher .teacherdetails .right .teacherName {
+    font-weight: 00;
+    font-size: 20px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #252F40;
+    margin-bottom: 5px;
+    text-align: center;
+    /* background: #000; */
+}
+
+.teacher .teacherdetails .right .teacherLocation {
+    font-weight: 00;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #252F40;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+/* ==================what students say============ */
+.whatStudentsSay {
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-x: auto; /* Change to handle horizontal overflow */
+    overflow-y: hidden; /* Prevent vertical overflow */
+}
+
+.whatStudentsSay .title {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.whatStudentsSay .mainWhatStudentsSay {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    /* background: #000; */
+}
+
+.whatStudentsSay .student {
+    width: auto;
+    max-width: 422px;
+    height: 315px;
+    max-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.10);
+    margin: 20px 10px;
+}
+
+.whatStudentsSay .student .studentSpeechText {
+    font-weight: 00;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #252F40;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whatStudentsSay .student .studentdetails {
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background: #000; */
+}
+
+.whatStudentsSay .student .studentdetails .left {
+    width: 64px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #f00; */
+    margin-right: 8px;
+
+}
+
+.whatStudentsSay .student .studentdetails .left img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.whatStudentsSay .student .studentdetails .right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* background-color: #f00; */
+}
+
+.whatStudentsSay .student .studentdetails .right .studentName {
+    font-weight: 00;
+    font-size: 20px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #252F40;
+    margin-bottom: 5px;
+    text-align: left;
+    /* background: #000; */
+}
+
+.whatStudentsSay .student .studentdetails .right .studentLocation {
+    font-weight: 00;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #252F40;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+/* ==================contact us=============== */
+.contactUs {
+    height: 750px;
+    width: 100%;
+    background-color: #F1F5F9;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactUs .form {
+    /* position:absolute;
+    left: 10%;
+    top: 10%; */
+    width: 732px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.contactUs .form .title {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contactUs .form .subTitle {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #67748E;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.contactUs .form .inputs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contactUs .form .inputs .nameandmails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background: #000; */
+}
+
+.contactUs .form label {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 6px 3px;
+
+}
+
+.contactUs .form .inputs .nameandmails input {
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #D2D6DA;
+
+}
+
+.contactUs .form .inputs .nameandmails input::placeholder {
+    color: #67748E;
+}
+
+.contactUs .form .inputs .textArea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background: #000; */
+}
+
+.contactUs .form .inputs .textArea #message {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #D2D6DA;
+}
+
+.contactUs .form .inputs .textArea #message::placeholder {
+    color: #67748E;
+}
+
+.contactUs .form .inputs #submitButton {
+    width: 150px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #94A3B8 0%, #475569 100%);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ===========footer=================== */
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: #475569;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerTop {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 50px 0;
+    border-bottom: 1px solid #334155;
+}
+
+.footer .footerTop .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.footer #footer_logo {
+    /* width: 100px; */
+    height: 60px;
+    margin-top: 20px;
+}
+
+.footer .footerTop .footerMenu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px
+}
+
+.footer .footerTop .footerMenu li {
+    padding: 0 10px;
+    justify-self: unset;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footerTop .footerMenu li a {
+    text-decoration: none;
+    width: 150px;
+    color: #fff;
+    /* background-color: #000; */
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
+    border-bottom: 1px solid transparent;
+    text-align: left;
+}
+
+.footer .footerTop .footerMenu .footerMenuItem:first-child a {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.footer .footerBottom {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footerBottomText {
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footerBottomRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    /* background: #000; */
+}
+
+.footerBottomRight .footerBottomMenu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px
+}
+
+.footerBottomRight .footerBottomMenu li {
+    padding: 0 10px;
+    justify-self: unset;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBottomRight .footerBottomMenu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
+    border-bottom: 1px solid transparent;
+}
+/* ==============================================================
+============================================
+================================================================
+=======================================================
+=======================================
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+@media only screen and (max-width: 640px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* =====banner========= */
+    
+
+    /* ================who we are======= */
+    .whoWeAre {
+        height: 50vh;
+        background-color: #F1F5F8;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .whoWeAre .textContent {
+        position: absolute;
+        top: 50%; /* Start from the middle of the parent */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Offset by half its own height and width */
+        width: 80%; /* Make it more flexible for smaller screens */
+        margin: 0;
+        padding: 20px;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .whoWeAre .textContent .title{
+        font-size: 25px;
+        text-align: left;
+        width: 100%;
+    }
+    .whoWeAre .textContent .subTitle{
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* ===========counter=========== */
+
+    .counter {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .counter .mainCounter {
+        flex-direction: column;
+    }
+
+    .counter .mainCounter .count {
+        width: 90%;
+        margin-bottom: 20px;
+        background: rgba(0, 0, 0, 0.10)
+    }
+
+    .counter .mainCounter .count .countImage {
+        width: 50px;
+        height: 50px;
+    }
+
+    .counter .mainCounter .count .countNumber {
+        font-size: 2rem;
+    }
+
+    /* =============why meloda============ */
+    .whyMeloda {
+        height: 215px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-size: contain;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: multiply;
+    }
+    .whyMeloda .textContent {
+        position: absolute;
+        top: 45%; /* Start from the middle of the parent */
+        left: 45%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Offset by half its own height and width */
+        width: 80%; /* Make it more flexible for smaller screens */
+        margin: 0;
+        padding: 20px;
+        /* background-color: #FFF; */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .whyMeloda .textContent .title{
+        font-size: 25px;
+        text-align: left;
+        width: 100%;
+        color: #FFF;
+    }
+    .whyMeloda .textContent .subTitle{
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+        color: #FFF;
+    }
+
+
+    /* =============courses============ */
+    /* bring all individual course in same horizontal line scrolling */
+    .courses {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .courses .title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .courses .mainCourses {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    .courses .coursesDevide {
+        width: 100%;
+        /* Adjust as necessary for your layout */
+    }
+
+    .courses .subTitle {
+        font-size: 20px;
+        margin-bottom: 10px;
+        position: sticky;
+        top: 0;
+        left: 0; /* Aligns the subtitle to the left */
+        padding: 10px 0;
+        z-index: 10;
+        text-align: left; /* Ensures the text is aligned to the left */
+        /* Optionally, add background color */
+        width: 100%; /* Ensures the subtitle takes up the full width */
+    }
+    
+
+    .courses .coursesList {
+        display: flex;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        padding-bottom: 10px;
+        white-space: nowrap;
+        /* Prevent wrapping of course items */
+    }
+
+    .courses .course {
+        display: flex;
+        margin-right: 15px;
+        /* Space between course items */
+        flex: 0 0 auto;
+        /* Ensure courses don't shrink or grow */
+        height: 200px;
+        /* Adjust height as needed */
+        width: 250px;
+        /* Adjust width as needed */
+        background-color: #f8f8f8;
+        /* Example background */
+        padding: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .course .left {
+        background: #000;
+    }
+
+    .courses .courseImage {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .courses .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background: #000; */
+    }
+
+    .courses .courseName {
+        font-size: 18px;
+        margin-bottom: 5px;
+        display: block;
+        /* Ensures the course name takes up its own line */
+    }
+
+    .courses .courseDescription {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 10px;
+        display: block;
+        /* Ensures the description starts on a new line */
+        white-space: normal;
+        /* Ensures text wraps to a new line */
+        overflow-wrap: break-word;
+        /* Breaks long words to prevent overflow */
+        word-wrap: break-word;
+        /* Ensures wrapping in all browsers */
+    }
+
+    .courses .courseButton {
+        font-size: 14px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    /* ===============how it works======= */
+    .howItWorks {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .howItWorks .title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .howItWorks .steps{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .howItWorks .steps .step{
+        width: 30%;
+
+    }
+    .howItWorks .steps img{
+        width: 50px;
+        height: 50px;
+    }
+    .howItWorks .steps .stepTitle{
+        font-size: 17px;
+    }
+
+    /* ============Rising stars======== */
+    .risingStars {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .risingStars .title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .risingStars .mainRisingStars{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .risingStars .risingStar{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    /* ============aboutOurTeachers ======*/
+    .aboutOurTeachers{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .aboutOurTeachers .title{
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .aboutOurTeachers .mainAboutOurTeachers {
+        width: 360px;
+        height: auto;
+        /* background-color: #000; */
+    }
+    .aboutOurTeachers .teacher{
+        width: 320px;
+    }
+
+
+    /* ============what students say=========== */
+    .whatStudentsSay{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .whatStudentsSay .mainWhatStudentsSay{
+        display: block;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .whatStudentsSay .student{
+        width: 320px;
+        height: auto;
+        margin:20px auto;
+
+        
+    }
+    .whatStudentsSay .title{        
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* =======contact us========= */
+    .contactUs{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contactUs .form{
+        width: 90%;
+        padding: 20px;
+    }
+    .contactUs .form .subTitle{
+        font-size: 14px;
+    }
+    .contactUs .form .inputs .nameandmails{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactUs .form .inputs .textArea #message{
+        width: 100%;
+    }
+
+
+    /* ========footer=========== */
+    .footer .footerTop{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: top;
+        flex-wrap: wrap;
+    }
+    #footerTopColLogo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footerTopColLogo ul li{
+        width: 100%;
+        margin: auto;
+    }
+    #footerTopColLogo a{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fff;
+        text-align: left;
+    }
+    .footer .footerTop .footerTopCol{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+
+
+
+
+}

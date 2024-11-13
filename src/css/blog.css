@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F1F5F8;
+}
+
+/* =======blogs======== */
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.blogs .blog{
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    /* background-color: #000; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    display: flex;
+}
+.blogs .blog:hover{
+    transform: translateY(-10px);
+}
+.blogs .blog .blog-video{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.blogs .blog .blog-texts{
+    width: 50%;
+    padding: 20px;
+
+}
+.blogs .blog .blog-texts .name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    font-weight: bold;
+}
+.blogs .blog .blog-texts .designation{
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.blogs .blog .blog-texts .date{
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+
+}
+.blogs .blog .blog-texts .description{
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.blogs .blog:nth-child(even) {
+    flex-direction: row-reverse; /* Flips the direction for even blogs */
+}
+.blogs .blog:nth-child(even) .blog-texts {
+    order: 1; /* Changes the order of the text for even blogs */
+}
+
+
+
+
+
+/* ==============================================================
+============================================
+================================================================
+=======================================================
+=======================================
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+@media only screen and (max-width: 640px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+    .blogs .blog{
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+        /* background-color: #000; */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs .blog .blog-video{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .blogs .blog .blog-texts{
+        width: 100%;
+        padding: 20px;
+    }
+    .blogs .blog:nth-child(even) {
+        flex-direction: column-reverse; /* Flips the direction for even blogs */
+    }
+    .blogs .blog:nth-child(even) .blog-texts {
+        order: 1; /* Changes the order of the text for even blogs */
+    }
+
+
+}

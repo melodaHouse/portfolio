@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F1F5F8;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: #F1F5F8;
+}
+
+.about .about-title {
+    font-size: 4rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* Optional: Adjust text weight */
+    background: linear-gradient(45deg, #CBD5E1, #475569);
+    /* Gradient colors */
+    -webkit-background-clip: text;
+    /* Chrome, Safari */
+    -moz-background-clip: text;
+    /* Firefox */
+    background-clip: text;
+    /* Standard syntax */
+    color: transparent;
+    /* Hide the original text color */
+}
+.about .about-content {
+    width: 80%;
+    font-size: 1.5rem;
+    /* Adjust font size as needed */
+    margin-top: 1rem;
+    /* Optional: Adjust margin */
+    text-align: center;
+}
+
+
+/* ===========story=============== */
+.story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: #F1F5F8;
+}
+.story .left {
+    width: 30%;
+    height: auto;
+    padding: 2rem;
+}
+.story .left img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.story .right {
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+}
+.story .right .story-title {
+    font-size: 2rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* Optional: Adjust text weight */
+    background: linear-gradient(45deg, #CBD5E1, #475569);
+    /* Gradient colors */
+    -webkit-background-clip: text;
+    /* Chrome, Safari */
+    -moz-background-clip: text;
+    /* Firefox */
+    background-clip: text;
+    /* Standard syntax */
+    color: transparent;
+    /* Hide the original text color */
+    margin-bottom: 1rem;
+}
+.story .right .story-content {
+    font-size: 1.5rem;
+    /* Adjust font size as needed */
+    text-align: justify;
+    /* Optional: Adjust text alignment */
+}
+
+
+/* ==============================================================
+============================================
+================================================================
+=======================================================
+=======================================
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+@media only screen and (max-width: 640px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about .about-title {
+        font-size: 2rem;
+        /* Adjust font size as needed */
+    }
+    .story {
+        display: flex;
+        flex-direction: column;
+    }
+    .story .left {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+    .story .right {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+
+}

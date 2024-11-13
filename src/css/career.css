@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F1F5F8;
+}
+
+
+
+/* ====================career guidance================ */
+.whoWeAre {
+    height: 750px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.whoWeAre .textContent {
+    /* display: flex; */
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    padding: 0 20px;
+    z-index: 3;
+    /* background-color: #f00; */
+}
+
+.whoWeAre .textContent .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #0F172A;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whoWeAre .textContent .subTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 28;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ==============how it works========= */
+.howItWorks {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.howItWorks .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.howItWorks .steps {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.howItWorks .step {
+    width: 25%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.howItWorks .steps img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.howItWorks .steps .stepTitle {
+    font-weight: 00;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #F1F5F9;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#step1 {
+    background-color: #9CA3AF;
+}
+
+#step2 {
+    background-color: #6B7280;
+}
+
+#step3 {
+    background-color: #475569;
+}
+
+/* ============contact us============= */
+.contactUs {
+    height: 750px;
+    width: 100%;
+    background-color: #F1F5F9;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.contactUs .form {
+    /* position:absolute;
+    left: 10%;
+    top: 10%; */
+    width: 732px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.contactUs .form .title {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #0F172A;
+    ;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contactUs .form .subTitle {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #67748E;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.contactUs .form .inputs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contactUs .form .inputs .nameandmails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background: #000; */
+}
+
+.contactUs .form label {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 6px 3px;
+
+}
+
+.contactUs .form .inputs .nameandmails input {
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #D2D6DA;
+
+}
+
+.contactUs .form .inputs .nameandmails input::placeholder {
+    color: #67748E;
+}
+
+.contactUs .form .inputs .textArea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background: #000; */
+}
+
+.contactUs .form .inputs .textArea #message {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #D2D6DA;
+}
+
+.contactUs .form .inputs .textArea #message::placeholder {
+    color: #67748E;
+}
+
+.contactUs .form .inputs #submitButton {
+    width: 150px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #94A3B8 0%, #475569 100%);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.contactUs #file {
+    display: none;
+
+}
+.contactUs #fileButton {
+    width: 150px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #94A3B8 0%, #475569 100%);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin-right: auto;
+}
+.contactUs #fileButton:hover {
+    background-image: linear-gradient(90deg, #475569 0%, #94A3B8 100%);
+}
+.contactUs #fileName {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    /* background: #000; */
+}
+
+
+
+
+/* ======================= responsive==================
+=======================================
+==========================================
+=============================================
+=================================================== */
+/* ==============================================================
+============================================
+================================================================
+=======================================================
+=======================================
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+@media only screen and (max-width: 640px) {
+
+    .whoWeAre {
+        height: 50vh;
+        background-color: #F1F5F8;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .whoWeAre .textContent {
+        position: absolute;
+        top: 50%; /* Start from the middle of the parent */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Offset by half its own height and width */
+        width: 80%; /* Make it more flexible for smaller screens */
+        margin: 0;
+        padding: 20px;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    .whoWeAre .textContent .title{
+        font-size: 25px;
+        text-align: left;
+        width: 100%;
+    }
+    .whoWeAre .textContent .subTitle{
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+
+
+
+    .howItWorks {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .howItWorks .title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .howItWorks .steps{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .howItWorks .steps .step{
+        width: 30%;
+
+    }
+    .howItWorks .steps img{
+        width: 50px;
+        height: 50px;
+    }
+    .howItWorks .steps .stepTitle{
+        font-size: 17px;
+    }
+
+
+
+    .contactUs{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contactUs .form{
+        width: 90%;
+        padding: 20px;
+    }
+    .contactUs .form .subTitle{
+        font-size: 14px;
+    }
+    .contactUs .form .inputs .nameandmails{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactUs .form .inputs .textArea #message{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+}
