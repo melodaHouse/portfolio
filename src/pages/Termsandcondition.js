@@ -1,7 +1,12 @@
-import React from "react";
+useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
 import '../css/terms.css'
 
 function Termsandcondition() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <div className="about">

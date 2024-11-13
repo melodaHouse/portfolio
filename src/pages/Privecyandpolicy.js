@@ -1,6 +1,11 @@
-import React from "react";
+useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
 
 function Privecyandpolicy() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <div className="about">
