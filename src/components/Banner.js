@@ -13,7 +13,7 @@ function Banner({ route }) {
         case "Home":
             title = "Where Every Note Finds a Home";
             subTitle = "Learn, Play, and Create with Meloda House";
-            bannerImage = require("../images/banner-home.png");
+            bannerImage = require("../images/banner-home1.png");
             break;
         case "Courses":
             title = "Discover Your Rhythm with Meloda House";
