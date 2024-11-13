@@ -8,7 +8,7 @@ import { getStorage } from "firebase/storage"
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA3nbEg2xo1-PwauKKrIZ-wbNt1B9VcLj8",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "meloda-e15ce.firebaseapp.com",
     projectId: "meloda-e15ce",
     storageBucket: "meloda-e15ce.appspot.com",

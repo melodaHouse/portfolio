@@ -1,6 +1,4 @@
-useEffect(() => {
-    window.scrollTo(0, 0);
-}, []);
+import React, { useEffect } from 'react';
 import '../css/terms.css'
 
 function Termsandcondition() {
