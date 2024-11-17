@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import Home from "./pages/Home.js";
 import Career from "./pages/Career.js";
@@ -18,7 +17,6 @@ function App() {
   return (
     <BrowserRouter>
     <Analytics/>
-    <SpeedInsights/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/Home" element={<Home />}></Route>
