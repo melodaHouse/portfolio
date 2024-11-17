@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-
+import { Analytics } from "@vercel/analytics/react"
 import Home from "./pages/Home.js";
 import Career from "./pages/Career.js";
 import Blog from "./pages/Blog.js";
@@ -15,6 +15,7 @@ import Developers from "./pages/Developers.js";
 function App() {
   return (
     <BrowserRouter>
+    <Analytics/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/Home" element={<Home />}></Route>
